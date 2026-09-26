@@ -5955,6 +5955,58 @@ The file is looked up beside this language file first, then under the game's Con
   <value>COOK</value>
   <comment>COOK</comment>
 </data>
+<data name="Microwave.RecipesSection" xml:space="preserve">
+  <value>RECIPES</value>
+  <comment>RECIPES</comment>
+</data>
+<data name="Microwave.WillCook" xml:space="preserve">
+  <value>WILL COOK {NAME}</value>
+  <comment>WILL COOK {NAME}</comment>
+</data>
+<data name="Microwave.WillCookStatus" xml:space="preserve">
+  <value>WILL COOK</value>
+  <comment>WILL COOK</comment>
+</data>
+<data name="Microwave.WillBurn" xml:space="preserve">
+  <value>WILL BURN AS LOADED</value>
+  <comment>WILL BURN AS LOADED</comment>
+</data>
+<data name="Microwave.AlsoMatches" xml:space="preserve">
+  <value>ALSO MATCHES</value>
+  <comment>ALSO MATCHES</comment>
+</data>
+<data name="Microwave.StillPartOf" xml:space="preserve">
+  <value>{COUNT} STILL PART OF</value>
+  <comment>{COUNT} STILL PART OF</comment>
+</data>
+<data name="Microwave.RecipesCount" xml:space="preserve">
+  <value>{COUNT} RECIPES</value>
+  <comment>{COUNT} RECIPES</comment>
+</data>
+<data name="Microwave.NoRecipeTakes" xml:space="preserve">
+  <value>NO RECIPE TAKES THIS LOAD: EJECT ALL</value>
+  <comment>NO RECIPE TAKES THIS LOAD: EJECT ALL</comment>
+</data>
+<data name="Microwave.LoadSomething" xml:space="preserve">
+  <value>LOAD SOMETHING</value>
+  <comment>LOAD SOMETHING</comment>
+</data>
+<data name="Microwave.EjectAll" xml:space="preserve">
+  <value>NO RECIPE CONTAINS THIS LOAD: EJECT ALL AND START AGAIN</value>
+  <comment>NO RECIPE CONTAINS THIS LOAD: EJECT ALL AND START AGAIN</comment>
+</data>
+<data name="Microwave.Missing" xml:space="preserve">
+  <value>MISSING {NAME}</value>
+  <comment>MISSING {NAME}</comment>
+</data>
+<data name="Microwave.MissingReagents" xml:space="preserve">
+  <value>MISSING REAGENTS</value>
+  <comment>MISSING REAGENTS</comment>
+</data>
+<data name="Microwave.FootCodex" xml:space="preserve">
+  <value>CODEX</value>
+  <comment>CODEX</comment>
+</data>
 <data name="SmartFridge.HeaderFallback" xml:space="preserve">
   <value>SMART CHEMICAL STORAGE</value>
   <comment>SMART CHEMICAL STORAGE</comment>
@@ -8377,7 +8429,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="Codex.HomeBrief" xml:space="preserve">
   <value>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY IS A FAMILY: A PAGE LISTING EVERYTHING THAT COUNTS AS ONE.</value>
-  <comment>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY IS A FAMILY: A PAGE LISTING EVERYTHING THAT COUNTS AS ONE.</comment>
+  <comment>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY TAKES ANY KIND OF THAT THING: A FAMILY PAGE LISTS EVERYTHING THAT COUNTS AS ONE, AND A RECIPE ROW LISTS THE KINDS BESIDE IT.</comment>
 </data>
 <data name="Codex.HomeSub" xml:space="preserve">
   <value>FIELD REFERENCE // GENERATED FROM GAME DATA</value>
@@ -8987,6 +9039,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>CONSTRUCTION</value>
   <comment>CONSTRUCTION</comment>
 </data>
+<data name="Codex.Topic.Galley" xml:space="preserve">
+  <value>GALLEY</value>
+  <comment>GALLEY</comment>
+</data>
 <data name="Codex.Topic.Items" xml:space="preserve">
   <value>ITEMS</value>
   <comment>ITEMS</comment>
@@ -9030,6 +9086,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Section.Construction.Materials" xml:space="preserve">
   <value>MATERIALS</value>
   <comment>MATERIALS</comment>
+</data>
+<data name="Codex.Section.Galley.Recipes" xml:space="preserve">
+  <value>RECIPES</value>
+  <comment>RECIPES</comment>
+</data>
+<data name="Codex.Section.Galley.Food" xml:space="preserve">
+  <value>FOOD</value>
+  <comment>FOOD</comment>
+</data>
+<data name="Codex.Section.Galley.Appliances" xml:space="preserve">
+  <value>APPLIANCES</value>
+  <comment>APPLIANCES</comment>
+</data>
+<data name="Codex.Section.Galley.Kitchenware" xml:space="preserve">
+  <value>KITCHENWARE</value>
+  <comment>KITCHENWARE</comment>
 </data>
 <data name="Codex.Section.Items.Families" xml:space="preserve">
   <value>FAMILIES</value>
@@ -9750,6 +9822,262 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Surgery.FracturePercent" xml:space="preserve">
   <value>{PERCENT} PCT CHANCE TO FRACTURE THE BONE</value>
   <comment>{PERCENT} PCT CHANCE TO FRACTURE THE BONE</comment>
+</data>
+<data name="Codex.Galley.MadeBy" xml:space="preserve">
+  <value>MADE BY</value>
+  <comment>MADE BY</comment>
+</data>
+<data name="Codex.Galley.UsedIn" xml:space="preserve">
+  <value>USED IN</value>
+  <comment>USED IN</comment>
+</data>
+<data name="Codex.Galley.Cooks" xml:space="preserve">
+  <value>COOKS</value>
+  <comment>COOKS</comment>
+</data>
+<data name="Codex.Galley.Grinds" xml:space="preserve">
+  <value>GRINDS</value>
+  <comment>GRINDS</comment>
+</data>
+<data name="Codex.Galley.Run" xml:space="preserve">
+  <value>RUN</value>
+  <comment>RUN</comment>
+</data>
+<data name="Codex.Galley.StockedIn" xml:space="preserve">
+  <value>STOCKED IN</value>
+  <comment>STOCKED IN</comment>
+</data>
+<data name="Codex.Galley.JuicedFrom" xml:space="preserve">
+  <value>JUICED FROM</value>
+  <comment>JUICED FROM</comment>
+</data>
+<data name="Codex.Galley.GroundFrom" xml:space="preserve">
+  <value>GROUND FROM</value>
+  <comment>GROUND FROM</comment>
+</data>
+<data name="Codex.Galley.How" xml:space="preserve">
+  <value>HOW</value>
+  <comment>HOW</comment>
+</data>
+<data name="Codex.Galley.From" xml:space="preserve">
+  <value>FROM</value>
+  <comment>FROM</comment>
+</data>
+<data name="Codex.Galley.Makes" xml:space="preserve">
+  <value>MAKES</value>
+  <comment>MAKES</comment>
+</data>
+<data name="Codex.Galley.With" xml:space="preserve">
+  <value>WITH</value>
+  <comment>WITH</comment>
+</data>
+<data name="Codex.Galley.KindMicrowave" xml:space="preserve">
+  <value>MICROWAVE</value>
+  <comment>MICROWAVE</comment>
+</data>
+<data name="Codex.Galley.KindProcessor" xml:space="preserve">
+  <value>PROCESSOR</value>
+  <comment>PROCESSOR</comment>
+</data>
+<data name="Codex.Galley.KindHand" xml:space="preserve">
+  <value>BY HAND</value>
+  <comment>BY HAND</comment>
+</data>
+<data name="Codex.Galley.KindSlice" xml:space="preserve">
+  <value>SLICED</value>
+  <comment>SLICED</comment>
+</data>
+<data name="Codex.Galley.KindJuice" xml:space="preserve">
+  <value>JUICED</value>
+  <comment>JUICED</comment>
+</data>
+<data name="Codex.Galley.KindNutriment" xml:space="preserve">
+  <value>GROUND</value>
+  <comment>GROUND</comment>
+</data>
+<data name="Codex.Galley.KindReaction" xml:space="preserve">
+  <value>REACTION</value>
+  <comment>REACTION</comment>
+</data>
+<data name="Codex.Galley.KindGibber" xml:space="preserve">
+  <value>GIBBER</value>
+  <comment>GIBBER</comment>
+</data>
+<data name="Codex.Galley.Juice" xml:space="preserve">
+  <value>JUICE</value>
+  <comment>JUICE</comment>
+</data>
+<data name="Codex.Galley.Grind" xml:space="preserve">
+  <value>GRIND</value>
+  <comment>GRIND</comment>
+</data>
+<data name="Codex.Galley.Any" xml:space="preserve">
+  <value>ANY</value>
+  <comment>ANY</comment>
+</data>
+<data name="Codex.Galley.Kept" xml:space="preserve">
+  <value>(KEPT)</value>
+  <comment>(KEPT)</comment>
+</data>
+<data name="Codex.Galley.ThisOneIsKept" xml:space="preserve">
+  <value>THIS ONE IS KEPT</value>
+  <comment>THIS ONE IS KEPT</comment>
+</data>
+<data name="Codex.Galley.RollCount" xml:space="preserve">
+  <value>x1D4</value>
+  <comment>x1D4</comment>
+</data>
+<data name="Codex.Galley.WithAnySlicer" xml:space="preserve">
+  <value>WITH ANY SLICER</value>
+  <comment>WITH ANY SLICER</comment>
+</data>
+<data name="Codex.Galley.OnASurface" xml:space="preserve">
+  <value>FOOD ON A TABLE OR ANY SURFACE</value>
+  <comment>FOOD ON A TABLE OR ANY SURFACE</comment>
+</data>
+<data name="Codex.Galley.GibberSentence" xml:space="preserve">
+  <value>A DEAD BODY THAT CANNOT BE REVIVED, OF A KIND THAT NEVER EATS, WITH NO GHOST BOUND TO IT, CARRYING NOTHING, PULLED IN AND LOADED, THEN RUN</value>
+  <comment>A DEAD BODY THAT CANNOT BE REVIVED, OF A KIND THAT NEVER EATS, WITH NO GHOST BOUND TO IT, CARRYING NOTHING, PULLED IN AND LOADED, THEN RUN</comment>
+</data>
+<data name="Codex.Galley.Mix" xml:space="preserve">
+  <value>MIX</value>
+  <comment>MIX</comment>
+</data>
+<data name="Codex.Galley.NothingElse" xml:space="preserve">
+  <value>NOTHING ELSE</value>
+  <comment>NOTHING ELSE</comment>
+</data>
+<data name="Codex.Galley.IntoTheSocketedBeaker" xml:space="preserve">
+  <value>INTO THE SOCKETED BEAKER</value>
+  <comment>INTO THE SOCKETED BEAKER</comment>
+</data>
+<data name="Codex.Galley.ThenTheRest" xml:space="preserve">
+  <value>THEN THE REST OF ITS MIX AS ROOM ALLOWS</value>
+  <comment>THEN THE REST OF ITS MIX AS ROOM ALLOWS</comment>
+</data>
+<data name="Codex.Galley.NeedsPower" xml:space="preserve">
+  <value>NEEDS POWER</value>
+  <comment>NEEDS POWER</comment>
+</data>
+<data name="Codex.Galley.Holds" xml:space="preserve">
+  <value>HOLDS</value>
+  <comment>HOLDS</comment>
+</data>
+<data name="Codex.Galley.Chamber" xml:space="preserve">
+  <value>CHAMBER</value>
+  <comment>CHAMBER</comment>
+</data>
+<data name="Codex.Galley.Cycle" xml:space="preserve">
+  <value>CYCLE</value>
+  <comment>CYCLE</comment>
+</data>
+<data name="Codex.Galley.HowTo" xml:space="preserve">
+  <value>HOW TO</value>
+  <comment>HOW TO</comment>
+</data>
+<data name="Codex.Galley.Pours" xml:space="preserve">
+  <value>POURS</value>
+  <comment>POURS</comment>
+</data>
+<data name="Codex.Galley.TurnItOnFirst" xml:space="preserve">
+  <value>TURN IT ON FIRST</value>
+  <comment>TURN IT ON FIRST</comment>
+</data>
+<data name="Codex.Galley.WrongLoadBurns" xml:space="preserve">
+  <value>A WRONG LOAD BURNS</value>
+  <comment>A WRONG LOAD BURNS</comment>
+</data>
+<data name="Codex.Galley.HowToLoad" xml:space="preserve">
+  <value>CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN; LOAD IT BY CLICKING IT WITH FOOD</value>
+  <comment>CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN; LOAD IT BY CLICKING IT WITH FOOD</comment>
+</data>
+<data name="Codex.Galley.PourOpen" xml:space="preserve">
+  <value>POUR BY CLICKING IT WITH AN OPEN CONTAINER (A SEALED ONE IS REFUSED: OPEN IT FIRST), ONE DOSE PER CLICK (EVERY CONTAINER'S PAGE SAYS WHAT IT POURS)</value>
+  <comment>POUR BY CLICKING IT WITH AN OPEN CONTAINER (A SEALED ONE IS REFUSED: OPEN IT FIRST), ONE DOSE PER CLICK (EVERY CONTAINER'S PAGE SAYS WHAT IT POURS)</comment>
+</data>
+<data name="Codex.Galley.PourExact" xml:space="preserve">
+  <value>A REAGENT NO RECIPE USES IS REFUSED AT THE DOOR, BUT AN ACCEPTED POUR IS NOT YET A RECIPE: THE WHOLE MIX MUST END EXACTLY ON ONE RECIPE'S AMOUNTS, AND EJECT ALL CLEARS AN OVER-POUR</value>
+  <comment>A REAGENT NO RECIPE USES IS REFUSED AT THE DOOR, BUT AN ACCEPTED POUR IS NOT YET A RECIPE: THE WHOLE MIX MUST END EXACTLY ON ONE RECIPE'S AMOUNTS, AND EJECT ALL CLEARS AN OVER-POUR</comment>
+</data>
+<data name="Codex.Galley.HowToCook" xml:space="preserve">
+  <value>THEN COOK FROM THE SCREEN</value>
+  <comment>THEN COOK FROM THE SCREEN</comment>
+</data>
+<data name="Codex.Galley.RunsWithExactlyOne" xml:space="preserve">
+  <value>RUNS WITH EXACTLY ONE INSIDE (MORE IS REFUSED AND EJECTED)</value>
+  <comment>RUNS WITH EXACTLY ONE INSIDE (MORE IS REFUSED AND EJECTED)</comment>
+</data>
+<data name="Codex.Galley.OutputOnTheFloor" xml:space="preserve">
+  <value>OUTPUT ON THE FLOOR</value>
+  <comment>OUTPUT ON THE FLOOR</comment>
+</data>
+<data name="Codex.Galley.HowToProcessor" xml:space="preserve">
+  <value>CLICK IT WITH ONE ITEM, THEN CLICK IT EMPTY-HANDED</value>
+  <comment>CLICK IT WITH ONE ITEM, THEN CLICK IT EMPTY-HANDED</comment>
+</data>
+<data name="Codex.Galley.GibberRefusal" xml:space="preserve">
+  <value>TAKES ONLY A DEAD BODY THAT CANNOT BE REVIVED, OF A KIND THAT NEVER EATS OR DRINKS (ANIMALS AND THE WALKING DEAD, NEVER A CREW BODY), WITH NO GHOST BOUND TO IT, CARRYING NOTHING</value>
+  <comment>TAKES ONLY A DEAD BODY THAT CANNOT BE REVIVED, OF A KIND THAT NEVER EATS OR DRINKS (ANIMALS AND THE WALKING DEAD, NEVER A CREW BODY), WITH NO GHOST BOUND TO IT, CARRYING NOTHING</comment>
+</data>
+<data name="Codex.Galley.HowToGibber" xml:space="preserve">
+  <value>PULL THE BODY ONTO IT AND CLICK IT EMPTY-HANDED TO LOAD, THEN CLICK IT EMPTY-HANDED AGAIN TO RUN</value>
+  <comment>PULL THE BODY ONTO IT AND CLICK IT EMPTY-HANDED TO LOAD, THEN CLICK IT EMPTY-HANDED AGAIN TO RUN</comment>
+</data>
+<data name="Codex.Galley.BeakerRoom" xml:space="preserve">
+  <value>A JUICE OR A GRIND ONLY FILLS THE ROOM LEFT IN THE BEAKER, AND A JUICE SPENDS THE ITEM EITHER WAY</value>
+  <comment>A JUICE OR A GRIND ONLY FILLS THE ROOM LEFT IN THE BEAKER, AND A JUICE SPENDS THE ITEM EITHER WAY</comment>
+</data>
+<data name="Codex.Galley.HowToGrinder" xml:space="preserve">
+  <value>CLICK IT WITH A BEAKER TO SOCKET IT, CLICK IT WITH FOOD TO LOAD, CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN, THEN GRIND OR JUICE</value>
+  <comment>CLICK IT WITH A BEAKER TO SOCKET IT, CLICK IT WITH FOOD TO LOAD, CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN, THEN GRIND OR JUICE</comment>
+</data>
+<data name="Codex.Galley.HoldsItemsAndUnits" xml:space="preserve">
+  <value>{COUNT} ITEMS + {WHOLE}.{FRAC} U</value>
+  <comment>{COUNT} ITEMS + {WHOLE}.{FRAC} U</comment>
+</data>
+<data name="Codex.Galley.HoldsItems" xml:space="preserve">
+  <value>{COUNT} ITEMS</value>
+  <comment>{COUNT} ITEMS</comment>
+</data>
+<data name="Codex.Galley.ChamberItems" xml:space="preserve">
+  <value>{COUNT} ITEMS</value>
+  <comment>{COUNT} ITEMS</comment>
+</data>
+<data name="Codex.Galley.PoursPerClick" xml:space="preserve">
+  <value>{WHOLE}.{FRAC} U PER CLICK</value>
+  <comment>{WHOLE}.{FRAC} U PER CLICK</comment>
+</data>
+<data name="Codex.Galley.PoursAfterOpening" xml:space="preserve">
+  <value>{WHOLE}.{FRAC} U PER CLICK AFTER OPENING</value>
+  <comment>{WHOLE}.{FRAC} U PER CLICK AFTER OPENING</comment>
+</data>
+<data name="Codex.Galley.FirePercent" xml:space="preserve">
+  <value>{PERCENT} PCT FIRE</value>
+  <comment>{PERCENT} PCT FIRE</comment>
+</data>
+<data name="Codex.Galley.MeatOnTheFloor" xml:space="preserve">
+  <value>{COUNT} MEAT ON THE FLOOR</value>
+  <comment>{COUNT} MEAT ON THE FLOOR</comment>
+</data>
+<data name="Codex.Galley.JuiceOutput" xml:space="preserve">
+  <value>UP TO {WHOLE}.{FRAC} U {REAGENT}</value>
+  <comment>UP TO {WHOLE}.{FRAC} U {REAGENT}</comment>
+</data>
+<data name="Codex.Galley.NutrimentOutput" xml:space="preserve">
+  <value>{PERCENT} PCT OF ITS {FROM} AS {REAGENT}</value>
+  <comment>{PERCENT} PCT OF ITS {FROM} AS {REAGENT}</comment>
+</data>
+<data name="Codex.Galley.Units" xml:space="preserve">
+  <value>{WHOLE}.{FRAC} U</value>
+  <comment>{WHOLE}.{FRAC} U</comment>
+</data>
+<data name="Codex.Galley.CountTimes" xml:space="preserve">
+  <value>x{COUNT}</value>
+  <comment>x{COUNT}</comment>
+</data>
+<data name="Codex.Galley.OtherBlades" xml:space="preserve">
+  <value>AND {COUNT} OTHER BLADES</value>
+  <comment>AND {COUNT} OTHER BLADES</comment>
 </data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
@@ -77955,6 +78283,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</value>
   <comment>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</comment>
 </data>
+<data name="Guide.Topic.Galley.Text" xml:space="preserve">
+  <value>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</value>
+  <comment>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</comment>
+</data>
 <data name="Guide.Topic.Items.Text" xml:space="preserve">
   <value>tools and the families the game names them by; a family groups every item that does the same job</value>
   <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
@@ -77998,6 +78330,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Guide.Section.Construction.Materials.Text" xml:space="preserve">
   <value>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</value>
   <comment>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</comment>
+</data>
+<data name="Guide.Section.Galley.Recipes.Text" xml:space="preserve">
+  <value>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</value>
+  <comment>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</comment>
+</data>
+<data name="Guide.Section.Galley.Kitchenware.Text" xml:space="preserve">
+  <value>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</value>
+  <comment>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</comment>
 </data>
 <data name="Guide.Section.Items.Families.Text" xml:space="preserve">
   <value>when the game names a family like crowbars, this is the exact list of items it means</value>
