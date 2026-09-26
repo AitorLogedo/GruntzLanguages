@@ -6456,7 +6456,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>W-Y RETAIL SYSTEMS</comment>
 </data>
 <data name="Register.UnitLine" xml:space="preserve">
-  <value>PUNTO DE VENTA // CONCESIONES COLONIALES</value>
+  <value>PUNTO DE VENTA // PUESTOS DE LA COLONIA</value>
   <comment>POINT OF SALE // COLONY CONCESSIONS</comment>
 </data>
 <data name="Register.ModeSale" xml:space="preserve">
@@ -6524,7 +6524,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>VOID</comment>
 </data>
 <data name="Register.NoSaleLabel" xml:space="preserve">
-  <value>SIN VENTA</value>
+  <value>ABRIR CAJÓN</value>
   <comment>NO SALE</comment>
 </data>
 <data name="Register.ReportLabel" xml:space="preserve">
