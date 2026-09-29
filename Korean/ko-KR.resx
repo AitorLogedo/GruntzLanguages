@@ -123,13 +123,13 @@ The file is looked up beside this language file first, then under the game's Con
 </resheader>
 
 <data name="FontMain" xml:space="preserve">
-  <value></value>
+  <value>DalmooriArcade-Regular.ttf</value>
 </data>
 <data name="FontSecondary" xml:space="preserve">
-  <value></value>
+  <value>JetBrainsMonoHangul-Regular.ttf</value>
 </data>
 <data name="Language" xml:space="preserve">
-  <value>한국어 (대한민국)</value>
+  <value>Korean</value>
 </data>
 <data name="MainMenu.FooterNet" xml:space="preserve">
   <value>W-Y 식민지 네트</value>
