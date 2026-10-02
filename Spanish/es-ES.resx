@@ -999,6 +999,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>¡El ascensor aplasta a {TARGET}!</value>
   <comment>The {TARGET} is crushed by the elevator!</comment>
 </data>
+<data name="Chat.DoorCrush" xml:space="preserve">
+  <value>¡Se cierra {USED} y aplasta a {TARGET}!</value>
+  <comment>The {TARGET} is crushed by the {USED}!</comment>
+</data>
 <data name="Chat.GestationCough" xml:space="preserve">
   <value>{ACTOR} tose.</value>
   <comment>{ACTOR} coughs.</comment>
@@ -6979,6 +6983,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>TRANSPARENCIA DEL HUD</value>
   <comment>HUD TRANSPARENCY</comment>
 </data>
+<data name="Settings.WindowOpacityLabel" xml:space="preserve">
+  <value>TRANSP. DE VENTANAS</value>
+  <comment>WINDOW TRANSPARENCY</comment>
+</data>
 <data name="Settings.ScopeReticleLabel" xml:space="preserve">
   <value>ANCHO DE LA RETÍCULA</value>
   <comment>SCOPE CROSSHAIR WIDTH</comment>
@@ -8310,6 +8318,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="EorScreen.CauseUnmade" xml:space="preserve">
   <value>DESHECHO</value>
   <comment>UNMADE</comment>
+</data>
+<data name="EorScreen.CauseCrushed" xml:space="preserve">
+  <value>APLASTADO</value>
+  <comment>CRUSHED</comment>
 </data>
 <data name="EorScreen.CauseOther" xml:space="preserve">
   <value>OTRO</value>
@@ -12272,6 +12284,26 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>test goggles (dead)</comment>
 </data>
 <data name="Def.Test.Nvg.Empty.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Test.Thermal.Off.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Test.Thermal.Off.Verb.Toggle" xml:space="preserve">
+  <value>encender</value>
+  <comment>turn on</comment>
+</data>
+<data name="Def.Test.Thermal.On.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Test.Thermal.On.Verb.Toggle" xml:space="preserve">
+  <value>apagar</value>
+  <comment>turn off</comment>
+</data>
+<data name="Def.Test.Thermal.Empty.Verb.PickUp" xml:space="preserve">
   <value>coger</value>
   <comment>pick up</comment>
 </data>
@@ -74823,6 +74855,38 @@ The file is looked up beside this language file first, then under the game's Con
   <value>coger</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Clothing.TigEmber.DisplayName" xml:space="preserve">
+  <value>gafas de imagen térmica TIG-2 'Ember'</value>
+  <comment>TIG-2 'Ember' thermal imaging goggles</comment>
+</data>
+<data name="Def.Clothing.TigEmber.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Clothing.TigEmber.Verb.Toggle" xml:space="preserve">
+  <value>encender</value>
+  <comment>turn on</comment>
+</data>
+<data name="Def.Clothing.TigEmber.On.DisplayName" xml:space="preserve">
+  <value>gafas de imagen térmica TIG-2 'Ember'</value>
+  <comment>TIG-2 'Ember' thermal imaging goggles</comment>
+</data>
+<data name="Def.Clothing.TigEmber.On.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Clothing.TigEmber.On.Verb.Toggle" xml:space="preserve">
+  <value>apagar</value>
+  <comment>turn off</comment>
+</data>
+<data name="Def.Clothing.TigEmber.Empty.DisplayName" xml:space="preserve">
+  <value>gafas de imagen térmica TIG-2 'Ember'</value>
+  <comment>TIG-2 'Ember' thermal imaging goggles</comment>
+</data>
+<data name="Def.Clothing.TigEmber.Empty.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.TestingJanibucketWatered.DisplayName" xml:space="preserve">
   <value>cubo de limpieza</value>
   <comment>janitorial bucket</comment>
@@ -75750,6 +75814,90 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Device.CrewMonitor.Empty.Verb.PickUp" xml:space="preserve">
   <value>coger</value>
   <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.PalmTree.DisplayName" xml:space="preserve">
+  <value>palmera</value>
+  <comment>palm tree</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.PalmTree0.DisplayName" xml:space="preserve">
+  <value>palmera</value>
+  <comment>palm tree</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.PalmTree1.DisplayName" xml:space="preserve">
+  <value>palmera</value>
+  <comment>palm tree</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Pandanus.DisplayName" xml:space="preserve">
+  <value>pandano</value>
+  <comment>pandanus</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Pandanus0.DisplayName" xml:space="preserve">
+  <value>pandano</value>
+  <comment>pandanus</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Pandanus1.DisplayName" xml:space="preserve">
+  <value>pandano</value>
+  <comment>pandanus</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Banana.DisplayName" xml:space="preserve">
+  <value>platanera</value>
+  <comment>banana tree</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Banana0.DisplayName" xml:space="preserve">
+  <value>platanera</value>
+  <comment>banana tree</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Banana1.DisplayName" xml:space="preserve">
+  <value>platanera</value>
+  <comment>banana tree</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Hibiscus.DisplayName" xml:space="preserve">
+  <value>hibisco</value>
+  <comment>hibiscus</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Hibiscus0.DisplayName" xml:space="preserve">
+  <value>hibisco</value>
+  <comment>hibiscus</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Hibiscus1.DisplayName" xml:space="preserve">
+  <value>hibisco</value>
+  <comment>hibiscus</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Fern.DisplayName" xml:space="preserve">
+  <value>helecho</value>
+  <comment>fern</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Fern0.DisplayName" xml:space="preserve">
+  <value>helecho</value>
+  <comment>fern</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.Fern1.DisplayName" xml:space="preserve">
+  <value>helecho</value>
+  <comment>fern</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.ElephantEar.DisplayName" xml:space="preserve">
+  <value>oreja de elefante</value>
+  <comment>elephant ear</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.ElephantEar0.DisplayName" xml:space="preserve">
+  <value>oreja de elefante</value>
+  <comment>elephant ear</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.ElephantEar1.DisplayName" xml:space="preserve">
+  <value>oreja de elefante</value>
+  <comment>elephant ear</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.CoastalGrass.DisplayName" xml:space="preserve">
+  <value>hierba costera</value>
+  <comment>coastal grass</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.CoastalGrass0.DisplayName" xml:space="preserve">
+  <value>hierba costera</value>
+  <comment>coastal grass</comment>
+</data>
+<data name="Def.Obj.Structure.Flora.Tropical.CoastalGrass1.DisplayName" xml:space="preserve">
+  <value>hierba costera</value>
+  <comment>coastal grass</comment>
 </data>
 <data name="StackFamily.cuppa joes lidded cups" xml:space="preserve">
   <value>vasos de Cuppa Joe's con tapa</value>
