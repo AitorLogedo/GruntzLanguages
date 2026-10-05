@@ -8555,6 +8555,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>CUALQUIER TIPO DE</value>
   <comment>ANY</comment>
 </data>
+<data name="Codex.Size.S" xml:space="preserve">
+  <value>P</value>
+  <comment>S</comment>
+</data>
+<data name="Codex.Size.L" xml:space="preserve">
+  <value>G</value>
+  <comment>L</comment>
+</data>
 <data name="Codex.Kind.Item" xml:space="preserve">
   <value>OBJETO</value>
   <comment>ITEM</comment>
@@ -11263,6 +11271,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>coger</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.TestSurgeryBlockVest.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.TestSurgeryBlockHelmet.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.TestExplodeTank.DisplayName" xml:space="preserve">
   <value>test explode tank</value>
   <comment>test explode tank</comment>
@@ -12564,6 +12580,14 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>test powered equipment</comment>
 </data>
 <data name="Def.Test.PoweredEquip.Off.Verb.Toggle" xml:space="preserve">
+  <value>encender</value>
+  <comment>turn on</comment>
+</data>
+<data name="Def.Test.Machine.Verb.Toggle" xml:space="preserve">
+  <value>apagar</value>
+  <comment>turn off</comment>
+</data>
+<data name="Def.Test.Machine.Off.Verb.Toggle" xml:space="preserve">
   <value>encender</value>
   <comment>turn on</comment>
 </data>
